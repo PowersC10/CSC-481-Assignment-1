@@ -1,0 +1,142 @@
+ticketABI: [
+  {
+    inputs: [ [Object], [Object] ],
+    stateMutability: 'nonpayable',
+    type: 'constructor'
+  },
+  {
+    anonymous: false,
+    inputs: [ [Object], [Object], [Object], [Object] ],
+    name: 'SwapAccepted',
+    type: 'event'
+  },
+  {
+    anonymous: false,
+    inputs: [ [Object], [Object] ],
+    name: 'SwapOffered',
+    type: 'event'
+  },
+  {
+    anonymous: false,
+    inputs: [ [Object], [Object] ],
+    name: 'TicketBought',
+    type: 'event'
+  },
+  {
+    anonymous: false,
+    inputs: [ [Object], [Object], [Object], [Object] ],
+    name: 'TicketResaleAccepted',
+    type: 'event'
+  },
+  {
+    anonymous: false,
+    inputs: [ [Object], [Object], [Object] ],
+    name: 'TicketResaleOffered',
+    type: 'event'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'acceptResale',
+    outputs: [],
+    stateMutability: 'payable',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'acceptSwap',
+    outputs: [],
+    stateMutability: 'nonpayable',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'buyTicket',
+    outputs: [],
+    stateMutability: 'payable',
+    type: 'function'
+  },
+  {
+    inputs: [],
+    name: 'checkResale',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'getTicketOf',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [],
+    name: 'manager',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'offerSwap',
+    outputs: [],
+    stateMutability: 'nonpayable',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'resaleOffers',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'resalePrices',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'resaleTicket',
+    outputs: [],
+    stateMutability: 'nonpayable',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'swapOffers',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'ticketOwners',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [],
+    name: 'ticketPrice',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [],
+    name: 'totalTickets',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'userTickets',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  }
+]
